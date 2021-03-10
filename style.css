@@ -250,7 +250,7 @@ div.example {
   font-size:25px;
   font-family: 'Akaya Telivigala', cursive;
   color: white;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 @media screen and (max-width: 480px) {
