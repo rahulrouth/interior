@@ -44,7 +44,7 @@
   .button:hover {background-color: #75522b}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: #75522b;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -179,7 +179,7 @@ ul a:hover {
 }
 
 ul li {
-	margin: 10px 0;
+	margin: 15px 0;
 	height: 25px;
 }
 

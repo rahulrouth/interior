@@ -44,7 +44,7 @@
   .button:hover {background-color: #75522b}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: #75522b;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -70,7 +70,7 @@
     font-family: 'Akaya Telivigala', cursive;
     color: white;
     font-size: 25px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   
   .img2 {
@@ -78,7 +78,7 @@
     border-radius: 50%;
     width: 370px;
     height: 370px;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
 
@@ -165,7 +165,7 @@ ul a:hover {
 }
 
 ul li {
-	margin: 10px 0;
+	margin: 15px 0;
 	height: 25px;
 }
 
