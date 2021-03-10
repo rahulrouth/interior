@@ -71,6 +71,8 @@
     color: white;
     font-size: 25px;
     margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   
   .img2 {
@@ -78,16 +80,20 @@
     border-radius: 50%;
     width: 370px;
     height: 370px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 20px;
     margin-bottom: 20px;
 
   }
  
+
+  
+
+
 h1 {
     font-family: 'Akaya Telivigala', cursive;
     color: #FFD700;
-    font-size: 7vw;
+    font-size: 40px;
 }
 h2 {
     font-family: 'Akaya Telivigala', cursive;
