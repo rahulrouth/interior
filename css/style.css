@@ -183,6 +183,26 @@ body {
     }
   }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: burlywood;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFD700;
+}
+
+/* selected link */
+a:active {
+  color: #FFD700;
+}
+
 /* nav end */
 
 /* 1st span */

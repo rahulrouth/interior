@@ -211,9 +211,16 @@ display: none;
     cursor: pointer;
     text-decoration: none;
     font-family: 'Merienda', cursive;
-    font-size: 20px;
-}
+    font-size: 25px;
 
+  }
+
+  @media screen and (max-width: 480px) {
+    a:-webkit-any-link {
+      
+      font-size: 18px;
+    }
+  }
 /* unvisited link */
 a:link {
   color: white;
@@ -311,7 +318,12 @@ h2 {
     width: 100%;
     height: auto;
   }
-
+  .respon {
+    
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 0px black;
+  } 
 
   /* FOOTER */
 .footer {

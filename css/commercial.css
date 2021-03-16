@@ -1,53 +1,225 @@
-/* header img */
+/* top nav start */
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(100, 54, 54);
+}
+
+.topnav a {
+  float: left;
+  color: #ebebeb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(100, 54, 54);
+  color: rgb(224, 114, 114);
+}
+
+.topnav a.active {
+  background-color: #75522b;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/* image */
 
 .parent-img{
 
-    width: 100%;
-    z-index: -2;
-    
+  width: 100%;
+  z-index: -2;
+  
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-  }
-  .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 480px) {
   .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: none;
   }
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  
+}
+
+@media screen and (max-width: 480px) {
   .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+    position: relative;
+  bottom: 8px;
+  right: 0;
   }
+  a i{
+    float: right;
+  }
+}
+
+/* buttons */
+.button {
+  padding: 1.2vw 1.8vw;
+  font-size: 1.9vw;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4a3319;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px 0px #000;;
+}
+
+.button:hover {background-color: #75522b}
+
+.button:active {
+  background-color: #75522b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* @media screen and (max-width: 480px) {
   .button {
-    padding: 1vw 1.5vw;
-    font-size: 1.8vw;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #4a3319;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 2px 4px 10px 0px #000;;
+    position: absolute;
   }
-  
-  .button:hover {background-color: #75522b}
-  
-  .button:active {
-    background-color: #75522b;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+} */
+
+
+
+/* responsive nav */
+
+.topnavigation a {
+float: left;
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+border-radius: 15px;
+margin-right: 10px;
+box-shadow: none;
+
+background-color: rgb(116, 57, 57);
+}
+
+.topnavigation a:hover {
+background-color: rgb(77, 25, 25);
+color: rgb(255, 255, 255);
+}
+
+
+.topnavigation .icon {
+display: none;
+}
+
+@media screen and (max-width: 480px) {
+.topnavigation a {display: none;}
+.topnavigation a.icon {
+  float: right;
+  display: block;
+  padding-bottom: 30px;
+  margin-top: 8px;
+  padding-top: 25px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.topnavigation.respo {position: relative;}
+/* .topnavigation.respo .icon {
+  position: absolute;
+  right: 110px;
+  top: 195px; */
+
+}
+.topnavigation.respo a {
+  float: none;
+  display: block;
+  text-align: left;
+  border-radius: 0px;
+  margin-right: 0; 
+}
+
+a:-webkit-any-link {
+  color: rgb(107, 36, 36);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+
+}
+
+@media screen and (max-width: 480px) {
+  a:-webkit-any-link {
+    
+    font-size: 18px;
   }
+}
+
+/* unvisited link */
+a:link {
+color: white;
+}
+
+/* visited link */
+a:visited {
+color: burlywood;
+}
+
+/* mouse over link */
+a:hover {
+color: #FFD700;
+}
+
+/* selected link */
+a:active {
+color: #FFD700;
+}
+
+
+
+
+
+
+/* body */
+
+
+
+
+.respon {
+   
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px 0px black;
+  
+}
 
   /* body */
   body {
@@ -58,37 +230,10 @@
     padding: 5px;
   }
   
-  a:-webkit-any-link {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: 'Merienda', cursive;
   
-}
 
 
-/* unvisited link */
-a:link {
-  color: white;
-}
 
-/* visited link */
-a:visited {
-  color: burlywood;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FFD700;
-}
-
-/* selected link */
-a:active {
-  color: #FFD700;
-}
-
-
-/* body */
 .clearfix {
   overflow: auto;
   font-family: 'Akaya Telivigala', cursive;

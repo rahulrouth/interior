@@ -1,4 +1,4 @@
-/* top nav */
+/* top nav start */
 
 
 
@@ -85,8 +85,8 @@ body {
 
 /* buttons */
 .button {
-  padding: 1vw 1.5vw;
-  font-size: 1.8vw;
+  padding: 1.2vw 1.8vw;
+  font-size: 1.9vw;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -167,6 +167,42 @@ display: none;
   margin-right: 0; 
 }
 
+a:-webkit-any-link {
+  color: rgb(107, 36, 36);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+
+}
+
+@media screen and (max-width: 480px) {
+  a:-webkit-any-link {
+    
+    font-size: 18px;
+  }
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: burlywood;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFD700;
+}
+
+/* selected link */
+a:active {
+  color: #FFD700;
+}
+
 
 .respon {
    
@@ -193,25 +229,7 @@ display: none;
     
 
   }
-/* unvisited link */
-a:link {
-  color: white;
-}
 
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FFD700;
-}
-
-/* selected link */
-a:active {
-  color: #FFD700;
-}
 
 
 /* body */
